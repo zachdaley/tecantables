@@ -1,7 +1,20 @@
+
+
 div { 
   background: url(img/bg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  vertical-align: top;
+}
+
+img.tecan {
+	position: relative;
+	z-index: 50;
+}
+
+.top-bar .name h1 a {
+	position: relative;
+	z-index: 100;
 }
