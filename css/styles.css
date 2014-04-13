@@ -88,3 +88,7 @@ button {
 h4{
   font-weight: bold;
 }
+
+h3.tagline {
+  font-size: 2.5em;
+}
