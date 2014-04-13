@@ -8,13 +8,79 @@ div {
   background-size: cover;
   vertical-align: top;
 }
+body {
+  background: black;
+  color:white;
+}
 
 img.tecan {
 	position: relative;
 	z-index: 50;
+  top:-55px;
 }
 
-.top-bar .name h1 a {
-	position: relative;
+.top-bar {
 	z-index: 100;
+  background: none;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button),.top-bar-section ul,.top-bar-section li:not(.has-form) a:not(.button):hover {
+
+  font-weight: bold;
+  font-size: 1.2em;
+  background: none;
+  font-family: serif;
+  font-variant: small-caps;
+}
+
+
+li {
+  padding-right: 15px;
+}
+
+img.social{
+  width: 1.5em;
+  height: 1.5em;
+  display: inline;
+}
+
+h3{
+  font-weight: bold;
+  color: white;
+}
+
+p.item {
+
+  margin-bottom: 5px;
+}
+
+div.row {
+
+margin-bottom:40px;
+}
+
+div.description {
+  padding-left: 50px;
+  border-left: solid white;
+}
+
+footer {
+  background: black;
+}
+
+p.social {
+  text-align: right;
+}
+
+div.description.panel {
+
+  background: white;
+}
+
+button {
+  left: 15px;
+}
+
+h4{
+  font-weight: bold;
 }
