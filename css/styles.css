@@ -17,6 +17,9 @@ img.tecan {
 	position: relative;
 	z-index: 50;
   top:-55px;
+  height: 1000;
+  width: 1920;
+
 }
 
 .top-bar {
